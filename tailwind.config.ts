@@ -9,8 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: '#0A0A0A',
+        'bg-card': '#111111',
+        'bg-card-hover': '#1A1A1A',
+        text: '#F5F0E8',
+        'text-muted': '#8A8A8A',
+        accent: '#FF4500',
+        'accent-hover': '#FF5722',
+        'accent-dim': 'rgba(255, 69, 0, 0.15)',
+      },
+      fontFamily: {
+        mono: ['JetBrains Mono', 'monospace'],
+        heading: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
       },
     },
   },

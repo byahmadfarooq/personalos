@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="#0A0A0A"/>
+
+  <!-- Glow circle -->
+  <circle cx="200" cy="180" r="120" fill="url(#glow)"/>
+
+  <!-- Central OS circle -->
+  <circle cx="200" cy="180" r="60" fill="none" stroke="#FF4500" stroke-width="3"/>
+  <circle cx="200" cy="180" r="50" fill="none" stroke="#FF4500" stroke-width="1" opacity="0.4"/>
+
+  <!-- OS Text -->
+  <text x="200" y="175" text-anchor="middle" fill="#F5F0E8" font-family="serif" font-size="32" font-weight="bold">OS</text>
+  <text x="200" y="198" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="10" letter-spacing="3">PERSONAL</text>
+
+  <!-- Orbit nodes (representing sections) -->
+  <!-- Daily -->
+  <circle cx="200" cy="90" r="12" fill="#FF4500"/>
+  <text x="200" y="94" text-anchor="middle" fill="#F5F0E8" font-family="monospace" font-size="8" font-weight="bold">D</text>
+
+  <!-- Weekly -->
+  <circle cx="280" cy="130" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="280" y="134" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="8" font-weight="bold">W</text>
+
+  <!-- Goals -->
+  <circle cx="300" cy="210" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="300" y="214" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="8" font-weight="bold">G</text>
+
+  <!-- Pipeline -->
+  <circle cx="265" cy="270" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="265" y="274" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="8" font-weight="bold">P</text>
+
+  <!-- Revenue -->
+  <circle cx="200" cy="290" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="200" y="294" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="7" font-weight="bold">$</text>
+
+  <!-- LinkedIn -->
+  <circle cx="135" cy="270" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="135" y="274" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="7" font-weight="bold">in</text>
+
+  <!-- Curriculum -->
+  <circle cx="100" cy="210" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="100" y="214" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="8" font-weight="bold">C</text>
+
+  <!-- GTM Brief -->
+  <circle cx="120" cy="130" r="12" fill="#0A0A0A" stroke="#FF4500" stroke-width="2"/>
+  <text x="120" y="134" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="7" font-weight="bold">⚡</text>
+
+  <!-- Connecting lines -->
+  <line x1="200" y1="102" x2="200" y2="120" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="268" y1="135" x2="250" y2="150" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="288" y1="210" x2="260" y2="200" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="255" y1="265" x2="235" y2="240" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="200" y1="278" x2="200" y2="240" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="145" y1="265" x2="165" y2="240" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="112" y1="210" x2="140" y2="200" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+  <line x1="132" y1="135" x2="150" y2="150" stroke="#FF4500" stroke-width="1" opacity="0.3"/>
+
+  <!-- Bottom tagline -->
+  <text x="200" y="350" text-anchor="middle" fill="#F5F0E8" font-family="sans-serif" font-size="14" font-weight="600" letter-spacing="1">Personal OS Dashboard</text>
+  <text x="200" y="370" text-anchor="middle" fill="#FF4500" font-family="monospace" font-size="9" opacity="0.7">LIFE &amp; BUSINESS OPERATING SYSTEM</text>
+</svg>
